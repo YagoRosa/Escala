@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:="http://www.w3.org/2000/svg"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/Adicionar"
+        android:layout_width="183dp"
+        android:layout_height="148dp"
+        android:layout_marginTop="316dp"
+        android:drawableLeft="@drawable/ic_adicionar"
+        android:fontFamily="sans-serif-medium"
+        android:radius="144dp"
+        android:text="@string/adicionar"
+        android:textColor="#713B3B"
+        android:textSize="16sp"
+        android:visibility="visible"
+        app:backgroundTint="#FFE0B2"
+        app:cornerRadius="23dp"
+        app:elevation="2dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/Editar"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Deletar"
+        android:layout_width="183dp"
+        android:layout_height="148dp"
+        android:layout_marginTop="52dp"
+        android:drawableLeft="@drawable/ic_remover_usuario"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/deletar"
+        android:textColor="#713B3B"
+        android:textSize="16sp"
+        android:visibility="visible"
+        app:backgroundTint="#BBDEFB"
+        app:cornerRadius="23dp"
+        app:elevation="2dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/Escala"
+        app:layout_constraintTop_toBottomOf="@+id/Adicionar" />
+
+    <Button
+        android:id="@+id/Escala"
+        android:layout_width="183dp"
+        android:layout_height="148dp"
+        android:layout_marginTop="52dp"
+        android:drawableLeft="@drawable/ic_escala"
+        android:fontFamily="sans-serif-medium"
+        android:text="Visualizar escala"
+        android:textColor="#713B3B"
+        android:textSize="16sp"
+        android:visibility="visible"
+        app:backgroundTint="#C8E6C9"
+        app:cornerRadius="23dp"
+        app:elevation="2dp"
+        app:layout_constraintEnd_toStartOf="@+id/Deletar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Editar" />
+
+    <Button
+        android:id="@+id/Editar"
+        android:layout_width="183dp"
+        android:layout_height="148dp"
+        android:layout_marginTop="316dp"
+        android:drawableLeft="@drawable/ic_editar"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/editar"
+        android:textColor="#713B3B"
+        android:textSize="16sp"
+        android:visibility="visible"
+        app:backgroundTint="#FFF9C4"
+        app:cornerRadius="23dp"
+        app:elevation="2dp"
+        app:layout_constraintEnd_toStartOf="@+id/Adicionar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="313dp"
+        android:layout_height="221dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

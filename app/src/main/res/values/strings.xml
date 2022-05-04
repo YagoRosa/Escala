@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Escala</string>
+    <string name="title_activity_editar">EditarActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="tela_adicionar">Tela Adicionar</string>
+    <string name="voltar">Voltar</string>
+    <string name="textview">TextView</string>
+    <string name="adicionar">Adicionar</string>
+
+    <string name="nome">Nome</string>
+    <string name="hor_rio">Horário</string>
+    <string name="valor_vendido">Valor Vendido</string>
+    <string name="data">Data</string>
+    <string name="status">Status</string>
+
+    <string name="tela_home">Tela Home</string>
+
+    <string name="escala">Escala</string>
+    <string name="deletar">Deletar</string>
+    <string name="editar">Editar</string>
+</resources>

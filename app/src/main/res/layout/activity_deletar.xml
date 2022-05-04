@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Deletar">
+
+    <EditText
+        android:id="@+id/editText_ID_id"
+        android:layout_width="225dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="361dp"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="101dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="361dp"
+        android:gravity="center"
+        android:text="ID"
+        app:layout_constraintEnd_toStartOf="@+id/editText_ID_id"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_delet"
+        android:layout_width="137dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="35dp"
+        android:drawableLeft="@drawable/ic_remover_usuario"
+        android:text="Deletar"
+        android:textColor="#713B3B"
+        app:backgroundTint="#BBDEFB"
+        app:layout_constraintEnd_toStartOf="@+id/button_view"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/bntVoltar"
+        android:layout_width="55dp"
+        android:layout_height="49dp"
+        android:layout_marginBottom="135dp"
+        android:drawableLeft="@drawable/ic_home"
+        android:textColor="#713B3B"
+        app:backgroundTint="#BBDEFB"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button_view"
+        android:layout_width="137dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="35dp"
+        android:drawableLeft="@drawable/ic_escala"
+        android:fontFamily="sans-serif-medium"
+        android:text="Escala"
+        android:textColor="#713B3B"
+        app:backgroundTint="#BBDEFB"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button_delet"
+        app:layout_constraintTop_toBottomOf="@+id/editText_ID_id" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
